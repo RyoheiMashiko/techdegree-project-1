@@ -7,33 +7,41 @@
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
   <body>
-
+    
     <nav class="main-nav">
       <ul class="nav">
         <li class="name">Ryohei Mashiko</li>
         <li><a href="index.html">Home</a></li>
-        <li><a href="#">Experience</a></li>
+        <li><a href="experience.html">Experience</a></li>
         <li><a href="contact.html">Contact</a></li>
-       </ul>
+      </ul>
     </nav>
-
-    <header class="experience_back">
-      <h1 class="name exp">My experience.</h1>
-    </header>
-
+    
     <main class="flex">
-      <article class="card cardlist">
-        <h2>Achievements and tasks:</h2>
-        <ul>
-          <li>Built strong relationships with clients.</li>
-          <li>Generated new customer throught direct sales and network marketing.</li>
-          <li>Resolved customer complains and negotiated to reach a good conclusion on both sides.</li>
-          <li>Analysis of monthly settlement of department and reported summary.</li>
-          <li>Collaborated with managers, team members, and vendors to achieve the company’s goal.</li>
-        </ul>
-      </article> 
-
+      <article class="contact">
+        <form>
+          <h1>Contact me!</h1>
+          <ul>
+            <li>
+              <label for="Name">Name</label>
+              <input type="text" id="Name" name="Name" placeholder="Your name...">
+            </li>
+            <li>
+              <label for="Email">Email</label>
+              <input id="Email" name="Email" placeholder="example@xxx.com">
+            </li>
+            <li>
+              <label for="Subject">Subject</label>
+              <textarea id="Subject" name="Subject" placeholder="I like you because..."></textarea>
+            </li>
+            <li class="button">
+              <button class="button" type="Submit">Send</button>
+            </li> 
+          </ul>
+        </form>
+      </article>
     </main>
+    
     <footer>
       <ul>
         <li><a href="#" class="social twitter">Twitter</a></li>
@@ -43,4 +51,5 @@
       <p class="copyright">Copyright 2020, Ryohei Mashiko</p>
     </footer>
   </body>
-  </html>
+</head>
+</html>
