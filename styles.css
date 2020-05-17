@@ -122,6 +122,25 @@ header .profile-image:hover {
   border-color: skyblue;
 }
 
+  /* css for images in card */
+
+  .card-image {
+    width: 100px;
+    margin-left: 50px;
+  }
+
+  .arrow {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-top: 5px solid skyblue;
+    border-right: 5px solid skyblue;
+    transform: rotate(45deg);
+    vertical-align: center;
+    margin-bottom: 30px;
+  }
+
+
 /* added function about list of experience */
 .cardlist li {
   padding-top: 0.3rem;
